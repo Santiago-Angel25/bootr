@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercio Bootstrap</title>
+    <script type="text/JavaScript" src="regex.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/JavaScript" src="jas/funciones.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+    
+
+</head>
+<body>
+    <h1>Ejercicio Bootstra</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam quam sunt explicabo, iure mollitia facilis quas reprehenderit id consectetur commodi corporis maiores, voluptatem provident nobis aut? Dolor eos reiciendis magnam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad odit ratione assumenda, voluptate esse praesentium! Sequi totam ut unde numquam recusandae ea, nesciunt eius aut dolorem blanditiis aliquid neque optio!
+    </p>
+    <button type="button" class="btn btn-primary"><i class="bi bi-box-arrow-in-right">inciciar </i></button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    
+    <button type="button" class="btn btn-link">Link</button>
+    <br/>
+    <p>Nombre: 
+        <input type="text" id="nombre">
+    </p>
+    <button onclick="saludar()">Saludar</button>
+
+    <br/>
+    <p>edad:
+        <input type="number" id="edad" min="1" max="120">
+    </p>
+    <button onclick="edad()">edad</button>
+    <br/>
+    <br/>
+    <p id="texto">algo algo algo</p>
+    <button onclick="cambiarContendio()"> cambiar contenido </button>
+    <button onclick="cambiarvalor()">cambiar valor</button>
+    <br>
+    <br>
+    <img  id="foto" src="WhatsApp Image 2026-02-12 at 9.42.25 PM.jpeg" alt="manual" onmouseover="mostrar(2)" onmouseout="mostrar(1)" width="300px"/>
+    <button onclick="bordear(1)">estilo 1</button>
+    <button onclick="bordear(2)">estilo 2 </button>
+    
+
+</body>
+</html>
